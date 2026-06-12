@@ -111,6 +111,13 @@ font-family: sans-serif;
     position: relative;
     z-index: 1;
 }
+.rockets .rocket,
+.rockets .btn-4,
+.hero .hero-1,
+.hero .btn-2 {
+    position: relative;
+    z-index: 1;
+}
 
 /*== All Images ==*/
 .hero, .grid, .rockets, .person, .Deliver {
@@ -168,13 +175,16 @@ section p{
     font-size: 13px;
     color: #ccc;
 }
+
+/*Footer-Section*/
+
 .footer-bar{
     background-color: #000;
-    padding: 30px 60px;
+    padding: 20px 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 1px solid #333;
+    border-top: 1px solid #222;
 }
 .footer ul{
     display: flex;
@@ -183,10 +193,14 @@ section p{
 }
 .footer ul a{
     text-decoration: none;
-    columns: #888;
+    columns: #666;
+    display: flex;
+    justify-content: right;
     font-size: 11px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    color: #fff;
+
 }
 .footer ul a:hover{
     color: #fff;
