@@ -15,7 +15,7 @@ font-family: sans-serif;
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    position:fixed;
+    position:absolute;
     top: 0;
     width: 100%;
     z-index: 100;
@@ -56,9 +56,9 @@ font-family: sans-serif;
     text-transform: uppercase;
     border: 1px solid rgba(255,255,255,0.5);;
     padding: 8px 18px;
-    white-space: nowrap;    /* display: flex;
-    gap: 15px;
-    align-items: center; */
+    white-space: nowrap;    
+    border-radius: 5px;
+    
 }
 
 .launch-timer {
@@ -71,11 +71,13 @@ font-family: sans-serif;
     position: absolute;
     top: 100%;
     right: 0;
-    background: rgba(0, 0, 0, 0.9);
+    background: relative;
+    border-radius: 10px;
     list-style: none;
     min-width: 200px;
     border: 1px solid rgba(255,255,255,0.2);
     padding: 10px 0;
+    color: #fff;
 }
 
 /* SHOW on hover */
@@ -137,6 +139,14 @@ font-family: sans-serif;
     padding: 60px;
     columns: #fff;
 }
+.person {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end; /* RIGHT side */
+    padding-bottom: 120px;
+
+}
 .hero-1, .rocket, .starlink, .hero .btn-2, 
 .rockets .btn-4, .Deliver .btn-6 {
     position: relative;
@@ -181,10 +191,17 @@ background-image: url('images/Advancing_Human_Spaceflight_Desktop_61c8ba1c67.jpe
     letter-spacing: 0.15em;
     text-transform: uppercase;
     cursor: pointer;
+    border-radius: 5px;
 }
-.btn, .btn-2, .btn-3,.btn-4, .btn-5, .btn-6 a:hover{
-    columns: rgb(240, 240, 250)
-;
+.btn:hover, 
+.btn-2:hover, 
+.btn-3:hover, 
+.btn-4:hover, 
+.btn-5:hover, 
+.btn-6:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
 }
 
 /*==Typography==*/
