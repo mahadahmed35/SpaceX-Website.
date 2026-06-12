@@ -52,13 +52,13 @@ font-family: sans-serif;
     text-decoration: none;
     color: #fff;
     font-size: 12px;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.12em;
     text-transform: uppercase;
-    border: 1px solid #fff;
-    padding: 8px 16px;
-    display: flex;
+    border: 1px solid rgba(255,255,255,0.5);;
+    padding: 8px 18px;
+    white-space: nowrap;    /* display: flex;
     gap: 15px;
-    align-items: center;
+    align-items: center; */
 }
 
 .launch-timer {
@@ -180,34 +180,33 @@ section p{
 
 .footer-bar{
     background-color: #000;
-    padding: 20px 60px;
+    padding: 25px 60px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     border-top: 1px solid #222;
 }
-.footer ul{
+.footer-links{
     display: flex;
     list-style: none;
-    gap: 30px;
+    gap: 35px;
 }
-.footer ul a{
+.footer-links a{
     text-decoration: none;
-    columns: #666;
     display: flex;
-    justify-content: right;
+    font-family: sans-serif;
     font-size: 11px;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.12em;
     text-transform: uppercase;
     color: #fff;
 
 }
-.footer ul a:hover{
-    color: #fff;
 
-}
-.copy-right p{
-    color: #888;
+
+.copy-right {
+    color: #fff;
     font-size: 11px;
-    letter-spacing: 0.1em;
+    font-family: sans-serif;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
 }
