@@ -39,9 +39,32 @@ font-family: sans-serif;
     list-style: none;
 }
 
-.Img{
-    height: 20px;
-    filter: invert(1);
+.nav-logo {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.launch-btn {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    padding: 8px 16px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.launch-timer {
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 0.05em;
 }
 /* Video-section*/
 .Card{
@@ -120,6 +143,10 @@ background-image: url('images/Advancing_Human_Spaceflight_Desktop_61c8ba1c67.jpe
     letter-spacing: 0.15em;
     text-transform: uppercase;
     cursor: pointer;
+}
+.btn, .btn-2, .btn-3,.btn-4, .btn-5, .btn-6 a:hover{
+    columns: rgb(240, 240, 250)
+;
 }
 
 /*==Typography==*/
